@@ -1,9 +1,8 @@
 import React from 'react';
-//import provider
+import { useBookProvider } from '../../hooks/BookProvider';
 
 const Form = () => {
-  //use provider hook here
-    const { onSubmit, onChange, title, author, genre, imageUrl, synopsis  } = use();
+    const { onSubmit, onChange, title, author, genre, imageUrl, synopsis  } = useBookProvider();
     
   return (
     <form onSubmit={onSubmit}>
