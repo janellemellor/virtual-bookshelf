@@ -42,6 +42,10 @@ export const BookProvider = ({ children }) => {
   );
 };
 
+export const useBookProvider = () => {
+    const context = useContext(BookContext);
+    return context;
+};
 
 
 
