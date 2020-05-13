@@ -14,11 +14,16 @@
  - Form includes input for title, author, genre, image url, and which list it should be added to (dropdown)
 
 ### Personalized Lists
- - To Read
- - Books I've Read
- - On My Shelf (books I own or favorite books)
+ 1. To Read
+ 2. Books I've Read
+ 3.  On My Shelf (books I own or favorite books)
  * List pages will allow the user to delete a book from the list or move it to a different list
  * Books will include title, image, and author name
+ * Maybe allow users to name their own list?
 
  ### Detail Page
  - Each book will have a detail page with title, author, image, synopsis, name of the list it is currently in, and a toggle/button for the user to change the list the book is in, as well as delete
+
+### Pagination
+
+### 
