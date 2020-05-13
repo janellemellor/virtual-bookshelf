@@ -19,8 +19,29 @@ export const BookProvider = ({ children }) => {
     };
 
     setFormInputsFactory[target.name](target.value);
-  }
+  };
+  
+  const onSubmit = (event) => {
+      event.preventDefault();    
+  };
 
+  const context = {
+     onSubmit, 
+     onChange, 
+     title, 
+     author, 
+     genre, 
+     image, 
+     synopsis
+  };
+
+  return (
+    <BookContext.Provider value={context} >
+        {children}
+    </BookContext.Provider>
+  );
 };
+
+
 
 
