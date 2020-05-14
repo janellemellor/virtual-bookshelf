@@ -1,4 +1,5 @@
 import React, { createContext, useState, useContext } from "react";
+import { addBook } from '../services/booksApi';
  
 const BookContext = createContext();
 
@@ -22,7 +23,11 @@ export const BookProvider = ({ children }) => {
   };
   
   const onSubmit = (event) => {
-      event.preventDefault();    
+      event.preventDefault();
+      addBook({ title, author, genre, image, synopsis })
+        .then(book => {
+
+        });
   };
 
   const context = {
