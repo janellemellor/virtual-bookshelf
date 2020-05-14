@@ -12,7 +12,6 @@ describe('book actions', () => {
     expect(action).toEqual({
       type: ADD_BOOK,
       payload: {
-        _id: '5ebc6ebeb94f5edd42545645',
         author: 'Nayyirah Waheed',
         title: 'Salt',
         genre: 'Poetry',
