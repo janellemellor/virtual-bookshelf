@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form Component matches a snapshot 1`] = `
+<ContextProvider
+  value={
+    Object {
+      "author": "",
+      "genre": "",
+      "image": "",
+      "onChange": [Function],
+      "onSubmit": [Function],
+      "synopsis": "",
+      "title": "",
+    }
+  }
+>
+  <Form
+    author="Nayyirah Waheed"
+    genre="poetry"
+    imageUrl="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1380105266l/18585282.jpg"
+    onChange={[Function]}
+    onSubmit={[Function]}
+    synopsis="It was only and ever love"
+    title="Salt"
+  />
+</ContextProvider>
+`;
